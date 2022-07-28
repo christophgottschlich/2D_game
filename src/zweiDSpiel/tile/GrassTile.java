@@ -1,0 +1,15 @@
+package zweiDSpiel.tile;
+
+
+
+import zweiDSpiel.gfx.Assets;
+
+public class GrassTile extends Tile{
+
+	public GrassTile(int id)
+	{
+		super(Assets.grass, id);
+	}
+	 
+
+}
